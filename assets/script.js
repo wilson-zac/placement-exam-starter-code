@@ -13,7 +13,7 @@ let sugar = 0   // Sugar Sprinkle
 document.getElementById('credit').textContent = `Created by ${yourName}`
 
 // Event listener for clicks on the "+" button for Ginger Bread cookies
-document.getElementById('add-gb').addEventListener('click', function() {
+document.getElementById('add-gb').addEventListener('click', function(g) {
     // HINT: You can delete this console.log after you no longer need it!
     console.log('Ginger bread + button was clicked!')
 
