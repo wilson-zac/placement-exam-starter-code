@@ -1,10 +1,7 @@
-// HINT: You can delete this console.log after you no longer need it!
-console.log('JavaScript code has loaded!')
-
 // First, tell us your name
 let yourName = "Zac Wilson"
 
-// We'll use these variables to track the counts of each cookie type, I changed sugar to ss, also performed the required changes in index.html file
+// We'll use these variables to track the counts of each cookie type, I changed sugar to ss, also I performed this switch within the index.html file
 let gb = 0;
 let cc = 0;
 let ss = 0;
@@ -31,7 +28,7 @@ addgb.addEventListener('click', function(){
 
 minusgb.addEventListener('click', function(){
     gb = gb -1;
-    gbQty.textContent = gb
+    gbQty.textContent = gb 
     totalQty.textContent = ss + cc + gb
 })
 
