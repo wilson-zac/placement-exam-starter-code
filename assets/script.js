@@ -1,50 +1,54 @@
-// HINT: You can delete this console.log after you no longer need it!
-console.log('JavaScript code has loaded!')
+//Plus and Minus buttons for Ginger Bread (gb), Chocolate Chip (cc) and Sugar Sprinkle (ss) 
+let  = document.querySelector('#add-gb')
+let minusgb = document.querySelector('#minus-gb')
+let addcc = document.querySelector('#add-cc')
+let minuscc = document.querySelector('#minus-cc')
+let addss = document.querySelector('#add-ss')
+let minusss = document.querySelector('#minus-ss')
 
-// First, tell us your name
-let yourName = "Zac Wilson" // HINT: Replace this with your own name!
+let gb = 0;
+let cc = 0;
+let ss = 0;
 
-// We'll use these variables to track the counts of each cookie type
-let gb = 0      // Ginger bread
-let cc = 0      // Chocolate Chip
-let ss = 0   // Sugar Sprinkle
+// Quatity Totals for each cookie and the sum
+let gbQty = document.querySelector('#qty-gb')
+let ccQty = document.querySelector('#qty-cc')
+let ssQty = document.querySelector('#qty-ss')
+let totalQty = document.querySelector('#qty-total')
 
-// Code to update name display 
-document.getElementById('credit').textContent = `Created by ${yourName}`
-
-document.getElementById('add-gb').addEventListener('click', function(e) {
-        for (let i = 0; i < gb.length; i++) {
-            "qty-gb" = [i] + e;
-        }
-    
-
-})
-document.getElementById('minus-gb').addEventListener('click', function() {
-    // HINT: You can delete this console.log after you no longer need it!
-    console.log('Ginger bread - button was clicked!')
-
-
+addgb.addEventListener('click', function(){
+    gb = gb +1;
+    gbQty.textContent = gb
+    totalQty.textContent = ss + cc + gb
 })
 
-document.getElementById('add-cc').addEventListener('click', function() {
-    // HINT: You can delete this console.log after you no longer need it!
-    console.log('Chocolate Chip + button was clicked!')
-
- 
+minusgb.addEventListener('click', function(){
+    gb = gb -1;
+    gbQty.textContent = gb
+    totalQty.textContent = ss + cc + gb
 })
-document.getElementById('minus-cc').addEventListener('click', function() {
-    // HINT: You can delete this console.log after you no longer need it!
-    console.log('Chococlate Chip - button was clicked!')
 
+
+addcc.addEventListener('click', function(){
+    cc = cc +1;
+    ccQty.textContent = cc
+    totalQty.textContent = ss + cc + gb
 })
-document.getElementById('add-ss').addEventListener('click', function() {
-    // HINT: You can delete this console.log after you no longer need it!
-    console.log('Sugar Sprinkle + button was clicked!')
 
+minuscc.addEventListener('click', function(){
+    cc = cc -1;
+    ccQty.textContent = cc
+    totalQty.textContent = ss + cc + gb
 })
-document.getElementById('minus-ss').addEventListener('click', function() {
-    // HINT: You can delete this console.log after you no longer need it!
-    console.log('Sugar Sprinkle - button was clicked!')
 
+addss.addEventListener('click', function(){
+    ss = ss +1;
+    ssQty.textContent = ss
+    totalQty.textContent = ss + cc + gb
+})
 
+minusss.addEventListener('click', function(){
+    ss = ss -1;
+    ssQty.textContent = ss
+    totalQty.textContent = ss + cc + gb
 })
