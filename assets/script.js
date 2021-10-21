@@ -1,3 +1,14 @@
+// HINT: You can delete this console.log after you no longer need it!
+console.log('JavaScript code has loaded!')
+
+// First, tell us your name
+let yourName = "Zac Wilson"
+
+// We'll use these variables to track the counts of each cookie type, I changed sugar to ss, also performed the required changes in index.html file
+let gb = 0;
+let cc = 0;
+let ss = 0;
+
 //Plus and Minus buttons for Ginger Bread (gb), Chocolate Chip (cc) and Sugar Sprinkle (ss) 
 let addgb = document.querySelector('#add-gb')
 let minusgb = document.querySelector('#minus-gb')
@@ -6,11 +17,7 @@ let minuscc = document.querySelector('#minus-cc')
 let addss = document.querySelector('#add-ss')
 let minusss = document.querySelector('#minus-ss')
 
-let gb = 0;
-let cc = 0;
-let ss = 0;
-
-// Quatity Totals for each cookie and the sum
+// Quanity Totals for each cookie and the sum
 let gbQty = document.querySelector('#qty-gb')
 let ccQty = document.querySelector('#qty-cc')
 let ssQty = document.querySelector('#qty-ss')
