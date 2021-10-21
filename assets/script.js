@@ -1,5 +1,5 @@
 //Plus and Minus buttons for Ginger Bread (gb), Chocolate Chip (cc) and Sugar Sprinkle (ss) 
-let addgb= document.querySelector('#add-gb')
+let addgb = document.querySelector('#add-gb')
 let minusgb = document.querySelector('#minus-gb')
 let addcc = document.querySelector('#add-cc')
 let minuscc = document.querySelector('#minus-cc')
