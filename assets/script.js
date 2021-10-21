@@ -33,6 +33,8 @@ minusgb.addEventListener('click', function(){
     gb = gb -1;
     gbQty.textContent = gb 
     totalQty.textContent = ss + cc + gb
+    if (gb < 0) { gb = 0
+    }
 })
 
 
@@ -46,6 +48,8 @@ minuscc.addEventListener('click', function(){
     cc = cc -1;
     ccQty.textContent = cc
     totalQty.textContent = ss + cc + gb
+    if (cc < 0) { cc = 0
+    }
 })
 
 addss.addEventListener('click', function(){
@@ -58,4 +62,6 @@ minusss.addEventListener('click', function(){
     ss = ss -1;
     ssQty.textContent = ss
     totalQty.textContent = ss + cc + gb
+    if (ss < 0) { ss = 0
+    }
 })
