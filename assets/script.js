@@ -6,6 +6,9 @@ let gb = 0;
 let cc = 0;
 let ss = 0;
 
+// Code to update name display 
+document.getElementById('credit').textContent = `Created by ${yourName}`
+
 //Plus and Minus buttons for Ginger Bread (gb), Chocolate Chip (cc) and Sugar Sprinkle (ss) 
 let addgb = document.querySelector('#add-gb')
 let minusgb = document.querySelector('#minus-gb')
