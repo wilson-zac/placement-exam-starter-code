@@ -31,9 +31,9 @@ addgb.addEventListener('click', function(){
 
 minusgb.addEventListener('click', function(){
     gb = gb -1;
-    gbQty.textContent = gb 
+    gbQty.textContent= gb 
     totalQty.textContent = ss + cc + gb
-    if (gb < 0) { gb = 0
+    if (gb < 0) {gb = 0
     }
 })
 
@@ -64,4 +64,6 @@ minusss.addEventListener('click', function(){
     totalQty.textContent = ss + cc + gb
     if (ss < 0) { ss = 0
     }
+
 })
+
