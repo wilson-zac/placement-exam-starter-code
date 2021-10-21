@@ -16,13 +16,13 @@ let ccQty = document.querySelector('#qty-cc')
 let ssQty = document.querySelector('#qty-ss')
 let totalQty = document.querySelector('#qty-total')
 
-document.getElementById.addgb.addEventListener('click', function(){
+addgb.addEventListener('click', function(){
     gb = gb +1;
     gbQty.textContent = gb
     totalQty.textContent = ss + cc + gb
 })
 
-document.getElementById.minusgb.addEventListener('click', function(){
+minusgb.addEventListener('click', function(){
     gb = gb -1;
     gbQty.textContent = gb
     totalQty.textContent = ss + cc + gb
